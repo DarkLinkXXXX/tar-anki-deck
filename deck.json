@@ -1,0 +1,2402 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "ac8dd676-3541-11ec-96d8-c7784e6ff36c",
+    "deck_config_uuid": "ac8dd677-3541-11ec-96d8-c7784e6ff36c",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": false,
+            "crowdanki_uuid": "ac8dd677-3541-11ec-96d8-c7784e6ff36c",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 10,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "name": "The Expression Amrilato",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.card1 { background-color: #FFFFFF; }\n.card2 { background-color: #FFFFFF; }",
+            "flds": [
+                {
+                    "ad-hint-locale": "eo",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Esperanto",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Pronunciation",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "ad-hint-locale": "en",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "English",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Related words",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Sample usage",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Esperanto",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{English}}<br><br>{{Sample usage}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Eo_to_En",
+                    "ord": 0,
+                    "qfmt": "{{Esperanto}}   {{Pronunciation}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Esperanto}}  {{Pronunciation}}<br><br>Related: {{Related words}}<br><br>Sample: {{Sample usage}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "En_to_Eo",
+                    "ord": 1,
+                    "qfmt": "{{English}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "ac8dd6a7-3541-11ec-96d8-c7784e6ff36c",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Gid",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Gender",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Source",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Target",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Target Language",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Pronunciation",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Duolingo Sync",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        3,
+                        4
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<br><br>{{Target}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Source}}<br>\n<br>\nTo {{Target Language}}:\n\n<hr id=answer>"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<br><br>{{Source}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{Target}}<br>\n<br>\nFrom {{Target Language}}:\n\n<hr id=answer>"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "ajn",
+                "",
+                "any/ever/at all",
+                "",
+                ""
+            ],
+            "guid": "3|&Z6",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "iu ajn",
+                "",
+                "whoever",
+                "",
+                ""
+            ],
+            "guid": "!&QbI",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Almenaŭ",
+                "",
+                "At least",
+                "",
+                ""
+            ],
+            "guid": "sbe<6",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ambaŭ",
+                "",
+                "Both",
+                "",
+                ""
+            ],
+            "guid": "Zo?wL",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ankaŭ",
+                "",
+                "Also",
+                "",
+                ""
+            ],
+            "guid": "9o{~4",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ankoraŭ",
+                "",
+                "still/yet",
+                "",
+                ""
+            ],
+            "guid": "SI%S9",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Apenaŭ",
+                "",
+                "Barely",
+                "",
+                ""
+            ],
+            "guid": "@/^^U",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Baldaŭ",
+                "",
+                "Soon",
+                "",
+                ""
+            ],
+            "guid": "waK1T",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ĉi ",
+                "",
+                "Here (denotes proximity)",
+                "",
+                ""
+            ],
+            "guid": "/#h98",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ĉi tio",
+                "",
+                "this",
+                "",
+                ""
+            ],
+            "guid": "|4}rA",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tio ĉi",
+                "",
+                "This",
+                "",
+                ""
+            ],
+            "guid": "-0vU5",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ĉirkaŭ",
+                "",
+                "Around",
+                "",
+                ""
+            ],
+            "guid": "U#Sw9",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ĉu",
+                "",
+                "(indicates a yes/no question)",
+                "",
+                ""
+            ],
+            "guid": "o#jeT",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Do",
+                "",
+                "Therefore",
+                "",
+                ""
+            ],
+            "guid": "OnMCE",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Eĉ",
+                "",
+                "Even",
+                "",
+                ""
+            ],
+            "guid": "~6MD6",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "",
+                "",
+                "Far",
+                "For",
+                "Esperanto",
+                ""
+            ],
+            "guid": "+]K<3",
+            "note_model_uuid": "ac8dd6a7-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hieraŭ",
+                "",
+                "Yesterday",
+                "",
+                ""
+            ],
+            "guid": "_wJ>F",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hodiaŭ",
+                "",
+                "Today",
+                "",
+                ""
+            ],
+            "guid": "GWD09",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ja",
+                "",
+                "indeed",
+                "",
+                ""
+            ],
+            "guid": "GEwa?C^n!~",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "jam",
+                "",
+                "already",
+                "",
+                ""
+            ],
+            "guid": "e#n*L0KKfY",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "jen",
+                "",
+                "look (interjection)",
+                "",
+                ""
+            ],
+            "guid": "n=yA]%6^ny",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "jes",
+                "",
+                "yes",
+                "",
+                ""
+            ],
+            "guid": "o@vB:H:0mv",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ju pli [this], des pli [that]",
+                "",
+                "The more [this], the more [that]",
+                "",
+                "Ju pli mi vidi, des pli mi lerni"
+            ],
+            "guid": "lCT!~;ygx4",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "jus",
+                "",
+                "just now",
+                "",
+                ""
+            ],
+            "guid": "GpSk/*g(h.",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kvazaŭ",
+                "",
+                "as if",
+                "",
+                ""
+            ],
+            "guid": "coF?=]]05{",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mem",
+                "",
+                "itself",
+                "",
+                ""
+            ],
+            "guid": "d)H<lACDn_",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "minus",
+                "",
+                "minus",
+                "",
+                ""
+            ],
+            "guid": "h+^l_u:eGd",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "morgaŭ",
+                "",
+                "tomorrow",
+                "",
+                ""
+            ],
+            "guid": "I<Bz!neHTg",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ne",
+                "",
+                "no",
+                "",
+                ""
+            ],
+            "guid": "S_A1Ip.o7",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nun",
+                "",
+                "now",
+                "",
+                ""
+            ],
+            "guid": "t5idb:=#|~",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nur",
+                "",
+                "only",
+                "",
+                ""
+            ],
+            "guid": "A8NNXlQj/<",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "plej",
+                "",
+                "most",
+                "",
+                ""
+            ],
+            "guid": "K!wyJV~sg,",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "pli",
+                "",
+                "more",
+                "",
+                ""
+            ],
+            "guid": "zD>u/=+J24",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "plu",
+                "",
+                "further/more",
+                "",
+                ""
+            ],
+            "guid": "r#P6S&Uqpd",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "daŭrigi plu",
+                "",
+                "to keep going",
+                "",
+                ""
+            ],
+            "guid": "MW5GLG]0h@",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "plus",
+                "",
+                "plus",
+                "",
+                ""
+            ],
+            "guid": "L[v![j:Urf",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "preskaŭ",
+                "",
+                "nearly",
+                "",
+                ""
+            ],
+            "guid": "t3f=Ug.p,e",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tamen",
+                "",
+                "however",
+                "",
+                ""
+            ],
+            "guid": "lS0C{^c${-",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tre",
+                "",
+                "very",
+                "",
+                ""
+            ],
+            "guid": "f6UtO>t=Un",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tro",
+                "",
+                "too much",
+                "",
+                ""
+            ],
+            "guid": "kNYI9~#[tO",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tuj",
+                "",
+                "immediately",
+                "",
+                ""
+            ],
+            "guid": "CXm;e?k$f~",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Adverbs",
+                "Root"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "al",
+                "",
+                "to",
+                "",
+                ""
+            ],
+            "guid": "s5/^+=+omn",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "anstataŭ",
+                "",
+                "instead of",
+                "",
+                ""
+            ],
+            "guid": "qkEJi/^kF1",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "antaŭ",
+                "",
+                "in front of",
+                "",
+                ""
+            ],
+            "guid": "IJKn%J4(]5",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "apud",
+                "",
+                "beside",
+                "",
+                ""
+            ],
+            "guid": "d9@@T$2?W/",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ĉe",
+                "",
+                "at",
+                "",
+                ""
+            ],
+            "guid": ";^MY2sjQ}",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ĉirkaŭ",
+                "",
+                "around",
+                "",
+                ""
+            ],
+            "guid": "mG|74Hek_8",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "da",
+                "",
+                "(of quantity)",
+                "",
+                ""
+            ],
+            "guid": "B.J(ZLP@[w",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "de",
+                "",
+                "or/from",
+                "",
+                ""
+            ],
+            "guid": "K6h8E31:3)",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "dum",
+                "",
+                "during",
+                "",
+                ""
+            ],
+            "guid": "u-@+6U[|&Y",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ekster",
+                "",
+                "outside of",
+                "",
+                ""
+            ],
+            "guid": "DY`*I{6Y:S",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "el",
+                "",
+                "from/made of",
+                "",
+                ""
+            ],
+            "guid": "F{)*x,>)fG",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "en",
+                "",
+                "in",
+                "",
+                ""
+            ],
+            "guid": "GqVFTt=koS",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ĝis",
+                "",
+                "until",
+                "",
+                ""
+            ],
+            "guid": "s2wtH+P*1E",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "inter",
+                "",
+                "among",
+                "",
+                ""
+            ],
+            "guid": "z2<J)cF|Mb",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "je",
+                "",
+                "at (time)",
+                "",
+                ""
+            ],
+            "guid": "CV/C`V5j&Z",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kontraŭ",
+                "",
+                "against",
+                "",
+                ""
+            ],
+            "guid": "Pj-VbG^y<c",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "krom",
+                "",
+                "except",
+                "",
+                ""
+            ],
+            "guid": "ypk2WevD_b",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kun",
+                "",
+                "with",
+                "",
+                ""
+            ],
+            "guid": "Hs&e{;eqC#",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Laŭ",
+                "",
+                "according to",
+                "",
+                ""
+            ],
+            "guid": "y2NWtY]7>X",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "malgraŭ",
+                "",
+                "in spite of",
+                "",
+                ""
+            ],
+            "guid": "GEHnj&k>S%",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "per",
+                "",
+                "by way of",
+                "",
+                ""
+            ],
+            "guid": "Imk/OplaVn",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "po",
+                "",
+                "apiece",
+                "",
+                ""
+            ],
+            "guid": "s4Ni(~D@NK",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "por",
+                "",
+                "for",
+                "",
+                ""
+            ],
+            "guid": "gCW)T84U4=",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "post",
+                "",
+                "after",
+                "",
+                ""
+            ],
+            "guid": "MAVQO%oo0&",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "preter",
+                "",
+                "move past",
+                "",
+                ""
+            ],
+            "guid": "Otyn?5+x:X",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "pri",
+                "",
+                "about",
+                "",
+                ""
+            ],
+            "guid": "r5;,34^>7f",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "pro",
+                "",
+                "caused by",
+                "",
+                ""
+            ],
+            "guid": "tt^PUupC9Q",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sen",
+                "",
+                "without",
+                "",
+                ""
+            ],
+            "guid": "e%}Z&3FxXb",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sub",
+                "",
+                "beneath",
+                "",
+                ""
+            ],
+            "guid": "ruxl*WPU^7",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "super",
+                "",
+                "above",
+                "",
+                ""
+            ],
+            "guid": "j1~*1WV.#`",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sur",
+                "",
+                "upon",
+                "",
+                ""
+            ],
+            "guid": "NtLklyo2YP",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tra",
+                "",
+                "through",
+                "",
+                ""
+            ],
+            "guid": "rQ>rNP>f2/",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "trans",
+                "",
+                "across",
+                "",
+                ""
+            ],
+            "guid": "ikq/=PFHQ#",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prepositions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kaj",
+                "",
+                "and",
+                "",
+                ""
+            ],
+            "guid": "whuHK.6A2<",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "aŭ",
+                "",
+                "or",
+                "",
+                ""
+            ],
+            "guid": "m:K)pS<0^,",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sed",
+                "",
+                "but",
+                "",
+                ""
+            ],
+            "guid": "A<G]?khG~b",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nek",
+                "",
+                "neither",
+                "",
+                ""
+            ],
+            "guid": "f/z/e69UI/",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "antaŭ ol",
+                "",
+                "before",
+                "",
+                ""
+            ],
+            "guid": "gGKV7g@]N6",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "apenaŭ",
+                "",
+                "barely",
+                "",
+                ""
+            ],
+            "guid": "K?n^3Tq{M5",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ĉar",
+                "",
+                "because",
+                "",
+                ""
+            ],
+            "guid": "P<+u}_9edM",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "de kiam",
+                "",
+                "since",
+                "",
+                ""
+            ],
+            "guid": "QOUgIuoXh)",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "dum",
+                "",
+                "while",
+                "",
+                ""
+            ],
+            "guid": "vZGH[$8O&<",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "eĉ se",
+                "",
+                "even if",
+                "",
+                ""
+            ],
+            "guid": "kd7B}OReex",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ĝis",
+                "",
+                "until",
+                "",
+                ""
+            ],
+            "guid": "L|m1=:82=P",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ke",
+                "",
+                "that",
+                "",
+                ""
+            ],
+            "guid": "l%2U&r/F:m",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kiam",
+                "",
+                "when",
+                "",
+                ""
+            ],
+            "guid": "Dk:TNwnL4.",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kiel",
+                "",
+                "how",
+                "",
+                ""
+            ],
+            "guid": "BXI5e~d0.T",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kvankam",
+                "",
+                "although",
+                "",
+                ""
+            ],
+            "guid": "mY,ao)!SHZ",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kvazaŭ",
+                "",
+                "as though",
+                "",
+                ""
+            ],
+            "guid": "cFzSr9oW8$",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ol",
+                "",
+                "than",
+                "",
+                ""
+            ],
+            "guid": "r~b_!og0vf",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "se",
+                "",
+                "if",
+                "",
+                ""
+            ],
+            "guid": "(`:LhvU6c",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Conjunctions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "wo-",
+                "",
+                "related by marriage",
+                "",
+                "fartino -&gt; bofartino (sister -&gt; sister-in-law)"
+            ],
+            "guid": "J`U<S;w,qG",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prefixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "dis-",
+                "",
+                "dispersal",
+                "",
+                "doni -&gt; disdoni (to give -&gt; to distribute)"
+            ],
+            "guid": "rqh{U7i9FB",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prefixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ĉef-",
+                "",
+                "head/cheif",
+                "",
+                "ministro -&gt; ĉefministro (minister -&gt; Prime Minister)"
+            ],
+            "guid": "CK%cscnD!g",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prefixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ek-",
+                "",
+                "commencement of action",
+                "",
+                "plovi -&gt; ekplovi (to cry -&gt; to start to cry)"
+            ],
+            "guid": "LW.4g.)_.3",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prefixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "eks-",
+                "",
+                "former",
+                "",
+                "edzo -&gt; eksedzo (spouse -&gt; ex-spouse)"
+            ],
+            "guid": "sGPkkYml9}",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prefixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "ge-",
+                "",
+                "both sexes",
+                "",
+                "patro -&gt; gepatroj (father -&gt; both parents)"
+            ],
+            "guid": "Ma%h%BA`36",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prefixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mal-",
+                "",
+                "opposite",
+                "",
+                "dekstro -&gt; maldekstro (right -&gt; left)"
+            ],
+            "guid": "h+(mQ/jm]K",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prefixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mis-",
+                "",
+                "wrongly",
+                "",
+                "komproni -&gt; miskompreni (to understand -&gt; to misunderstand)"
+            ],
+            "guid": "kqNbq@_%.g",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prefixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "pra-",
+                "",
+                "ancient",
+                "",
+                "patro -&gt; prapatro (father -&gt; forefather)"
+            ],
+            "guid": "zT9=evo;%8",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prefixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "re-",
+                "",
+                "to do again",
+                "",
+                "veni -&gt; reveni (to come -&gt; to return)"
+            ],
+            "guid": "gwV0!31Gq&",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Prefixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-aĉ-",
+                "",
+                "inferior",
+                "",
+                "knabo -&gt; knabaĉo (child -&gt; brat)"
+            ],
+            "guid": "Cu!0|^*N`D",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ad-",
+                "",
+                "continuous action",
+                "",
+                "lerni -&gt; lernado (to learn -&gt; learning)"
+            ],
+            "guid": "ctoRy3Wsev",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-aĵ-",
+                "",
+                "thing",
+                "",
+                "manĝi -&gt; manĝaĵo (to eat -&gt; food)"
+            ],
+            "guid": "xqUX}`WK%x",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-an-",
+                "",
+                "member",
+                "",
+                "grupo -&gt; grupano (group -&gt; member)"
+            ],
+            "guid": "Qdp[@qw.[_",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ar-",
+                "",
+                "collection",
+                "",
+                "vorto -&gt; vortaro (word -&gt; dictionary)"
+            ],
+            "guid": "vM{l=Uh}9b",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ĉj-",
+                "",
+                "male term of affection",
+                "",
+                "john -&gt; joĉjo (john -&gt; johnny)"
+            ],
+            "guid": "n=-x6P:zd|",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ebl-",
+                "",
+                "ability",
+                "",
+                "porti -&gt; portebla (to carry -&gt; portable)"
+            ],
+            "guid": "s}M[WA3bG!",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ec-",
+                "",
+                "quality",
+                "",
+                "amiko -&gt; amikeco (friends -&gt; friendship)"
+            ],
+            "guid": "HD_VkDzgT@",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-eg-",
+                "",
+                "to great degree",
+                "",
+                "granda -&gt; grandega (big -&gt; enormous)"
+            ],
+            "guid": "Fq(mMfzk5.",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ej-",
+                "",
+                "location",
+                "",
+                "lerni -&gt; lernejo (to learn -&gt; school)"
+            ],
+            "guid": "f|ZzD<nXJC",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-em-",
+                "",
+                "tendency",
+                "",
+                "labori -&gt; laborema (to work -&gt; workaholic)"
+            ],
+            "guid": "GjhKw>fgkb",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-end-",
+                "",
+                "neccesity",
+                "",
+                "lerni -&gt; lernenda (to learn -&gt; required learning)"
+            ],
+            "guid": "olyBP*JyS.",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-er-",
+                "",
+                "unit",
+                "",
+                "pluvo -&gt; pluvero (rain -&gt; raindrop)"
+            ],
+            "guid": "t=O@^Lso4i",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-et-",
+                "",
+                "to small degree",
+                "",
+                "monto -&gt; monteto (mountain -&gt; hill)"
+            ],
+            "guid": "mTYq+CuGEw",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-i-",
+                "",
+                "country name",
+                "",
+                "Japano -&gt; Japanio (Japanese person -&gt; Japan)"
+            ],
+            "guid": "O,Rx;@;erf",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-id-",
+                "",
+                "offspring",
+                "",
+                "koko -&gt; kokido (chicken -&gt; chick)"
+            ],
+            "guid": "i:W#R3(f;I",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ig-",
+                "",
+                "to cause",
+                "",
+                "daŭri -&gt; daŭrigi (to continue (intransitive -&gt; transitive)"
+            ],
+            "guid": "h<X!~@`=Kx",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-iĝ-",
+                "",
+                "becoming",
+                "",
+                "fermi -&gt; fermiĝi (to close (transitive) -&gt; to be closed)"
+            ],
+            "guid": "d2@wHp=v^8",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-il-",
+                "",
+                "instrument",
+                "",
+                "skribi -&gt; skribilo (to write -&gt; writing implement)"
+            ],
+            "guid": "PG~:/Y~~zb",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-in-",
+                "",
+                "female",
+                "",
+                "patro -&gt; patrino (father -&gt; mother)"
+            ],
+            "guid": "Q%.:gZg(Fd",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ind-",
+                "",
+                "worth",
+                "",
+                "aĉeti -&gt; aĉetinda (to buy -&gt; worth buying)"
+            ],
+            "guid": "J6`.D8fL+p",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ing-",
+                "",
+                "holder",
+                "",
+                "glavo -&gt; glavingo (sword -&gt; sheath)"
+            ],
+            "guid": "o{GV`#7`qA",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ism-",
+                "",
+                "doctrine",
+                "",
+                "kapitalo -&gt; kapitalismo (capital -&gt; capitalism)"
+            ],
+            "guid": "q|6>U3LqW6",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ist-",
+                "",
+                "profession",
+                "",
+                "instrui -&gt; instruisto (to teach -&gt; teacher)"
+            ],
+            "guid": "q)L>hKcWS%",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-nj-",
+                "",
+                "female term of affection",
+                "",
+                "Susan -&gt; Sunjo (Susan -&gt; Suzy)"
+            ],
+            "guid": "kH~%LKI#ae",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-obl-",
+                "",
+                "multiple",
+                "",
+                "du -&gt; duobla (two -&gt; double)"
+            ],
+            "guid": "etTNsZRsp;",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-on-",
+                "",
+                "fraction",
+                "",
+                "du -&gt; duono (two -&gt; half)"
+            ],
+            "guid": "Mxn$nNT}CK",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-op-",
+                "",
+                "collection (specific number)",
+                "",
+                "tri -&gt; triopo (three -&gt; trio)"
+            ],
+            "guid": "r1nN(,G2OR",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-uj-",
+                "",
+                "loose container",
+                "",
+                "mono -&gt; monoujo (money -&gt; wallet)"
+            ],
+            "guid": "QT.A<i;?{n",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ul-",
+                "",
+                "charecterization",
+                "",
+                "juna -&gt; junulo (young -&gt; youth)"
+            ],
+            "guid": "h12|R7Z|DU",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-um-",
+                "",
+                "indefinite suffix",
+                "",
+                "okulo -&gt; okulumi (eye -&gt; to eye)"
+            ],
+            "guid": "g}=6.Waz?>",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ant-",
+                "",
+                "active present",
+                "",
+                ""
+            ],
+            "guid": "H3.7K9Te?R",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-int-",
+                "",
+                "active past participle",
+                "",
+                ""
+            ],
+            "guid": "m[{Iy=uPxM",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ont-",
+                "",
+                "active future participle",
+                "",
+                ""
+            ],
+            "guid": "g,t!RwchUJ",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-at-",
+                "",
+                "passive present participle",
+                "",
+                ""
+            ],
+            "guid": "OT)_%H~?ro",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-it-",
+                "",
+                "passive past participle&nbsp;",
+                "",
+                ""
+            ],
+            "guid": "j~U9hin>JZ",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "-ot-",
+                "",
+                "passive future participle",
+                "",
+                ""
+            ],
+            "guid": "L3|p?2(GjV",
+            "note_model_uuid": "ac8dd67a-3541-11ec-96d8-c7784e6ff36c",
+            "tags": [
+                "Suffixes"
+            ]
+        }
+    ]
+}
